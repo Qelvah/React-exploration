@@ -1,3 +1,11 @@
+Objective of this project:
+- Explore React
+- Create some kind of small to do list visually (no link to db or anything)
+- Have an aside bar that allows for theme switch(~10%) with the main core page on the right (90%), with a header and navbar on top and a footer at the bottom.
+- Basically just play around
+
+
+------------------ Automatically generated Readme.md ------------------ 
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
