@@ -12,7 +12,7 @@ function AppLayout() {
 
   return (
     <>
-      <Header mainText="Hello World" subText={subText} />
+      <Header mainText="React Exploration, Page: " subText={subText} />
       <NavBar />
       <Routes>
         {pages.map((p) => (

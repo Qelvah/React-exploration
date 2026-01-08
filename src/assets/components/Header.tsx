@@ -9,7 +9,7 @@ function Header({ mainText, subText }: Props) {
   return (
     <div id="header">
       {mainText}
-      {subText && `, ${subText}`}
+      {subText && `${subText}`}
     </div>
   );
 }
