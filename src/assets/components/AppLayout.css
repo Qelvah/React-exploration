@@ -1,0 +1,6 @@
+#main {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: calc(100% - 12% - 8%);
+}

@@ -1,6 +1,8 @@
 :root {
   --color-primary: darkslategray;
   --color-secondary: aliceblue;
+  --color-thirtiary: rgb(165, 99, 99);
+  --color-quartiary: gray;
   --color-accent: teal;
   --color-hover: slategray;
   --color-header: bisque;
@@ -8,13 +10,8 @@
   --color-button-border: black;
 }
 
-html, body, #root {
+html, body, #root, #app {
   width: 100%;
   height: 100%;
   margin: 0;
-}
-
-#app {
-  width: 100%;
-  height: 100%;
 }

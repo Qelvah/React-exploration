@@ -1,8 +1,12 @@
-import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Header from "./Header";
 import NavBar from "./NavBar";
+import Aside from "./Aside";
+import Content from "./Content";
 
 import { pages } from "../config/pageMap";
+
+import "./AppLayout.css";
 
 function AppLayout() {
   const location = useLocation();
@@ -14,12 +18,10 @@ function AppLayout() {
     <>
       <Header mainText="React Exploration, Page: " subText={subText} />
       <NavBar />
-      <Routes>
-        {pages.map((p) => (
-          <Route key={p.path} path={p.path} element={<p.component />} />
-        ))}
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <div id="main">
+        <Aside />
+        <Content id="container" />
+      </div>
     </>
   );
 }

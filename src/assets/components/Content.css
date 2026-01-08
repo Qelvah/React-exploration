@@ -1,0 +1,6 @@
+#container {
+  background-color: var(--color-quartiary);
+  width: 85%;
+  height: 100%;
+  padding: 1%;
+}
