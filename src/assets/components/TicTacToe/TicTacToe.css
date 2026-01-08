@@ -11,6 +11,15 @@
   padding: 0;
   text-align: center;
   width: 34px;
+  transition: 0.5ms;
+}
+
+.square:hover {
+  border-color: red;
+}
+
+.winning {
+  background-color: lightgreen;
 }
 
 .board-row:after {
